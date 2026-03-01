@@ -1,11 +1,11 @@
-# 🚀 MuleNet  
+# MuleNet  
 ### A Unified Cross-Channel Entity Graph for High-Velocity Mule Ring Detection
 
 > Transforming fraud detection from isolated transaction monitoring to network-level intelligence.
 
 ---
 
-## 📌 Problem Statement
+## Problem Statement
 
 Money mule networks exploit fragmentation across financial channels — Mobile App, Web Banking, UPI, and ATM — to rapidly move illicit funds across multiple accounts within minutes.
 
@@ -21,7 +21,7 @@ it is detecting a **suspicious network in motion**.
 
 ---
 
-## 💡 Our Solution: MuleNet
+## Our Solution: MuleNet
 
 **MuleNet** is a real-time fraud intelligence platform that unifies cross-channel transaction data into a dynamic **Entity Relationship Graph**.
 
@@ -29,49 +29,49 @@ Instead of analyzing isolated transactions, MuleNet evaluates **network behavior
 
 ### Core Capabilities
 
-- 🔗 **Unified Entity Graph**  
+- **Unified Entity Graph**  
   Integrates App, Web, ATM, and UPI data into a single relationship network.
 
-- ⚡ **Velocity-Based Detection**  
+- **Velocity-Based Detection**  
   Flags unusually short time gaps between transaction hops.
 
-- 🔄 **Multi-Hop Chain Detection**  
+- **Multi-Hop Chain Detection**  
   Identifies rapid fund movement across multiple accounts.
 
-- 🧠 **Cluster Identification**  
+- **Cluster Identification**  
   Detects coordinated mule rings using structural patterns.
 
-- 📊 **Network-Level Risk Scoring**  
+- **Network-Level Risk Scoring**  
   Calculates risk based on routing depth, transaction complexity, velocity, and behavior.
 
-- 💸 **Fragmentation & Structuring Detection**  
+- **Fragmentation & Structuring Detection**  
   Identifies splitting of funds or multiple small inbound transfers to avoid detection.
 
 ---
 
-## 🏗 System Architecture
+## System Architecture
 
-### 1️⃣ Data Sources
+### 1️Data Sources
 - Mobile App Transactions  
 - ATM Withdrawals  
 - UPI Transfers  
 - Web Banking Logs  
 
-### 2️⃣ Event Ingestion Layer
+### 2️Event Ingestion Layer
 - FastAPI-based ingestion  
 - Streaming simulation  
 
-### 3️⃣ Entity Graph Builder
+### 3️Entity Graph Builder
 - Dynamic account relationship graph  
 - Time-stamped transaction edges  
 
-### 4️⃣ Detection & Risk Engine
+### 4️Detection & Risk Engine
 - Velocity analysis  
 - Multi-hop chain detection  
 - Cluster detection  
 - Behavioral risk scoring  
 
-### 5️⃣ Output & Action Layer
+### 5️Output & Action Layer
 - Risk scores  
 - Flagged mule clusters  
 - Automated blocking triggers  
@@ -79,7 +79,7 @@ Instead of analyzing isolated transactions, MuleNet evaluates **network behavior
 
 ---
 
-## 🧠 Core Detection Logic
+## Core Detection Logic
 
 ### Graph Formation
 - Each transaction becomes a time-stamped edge.
@@ -103,7 +103,7 @@ Suspicion is derived from **network behavior**, not isolated events.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Backend & Processing
 - Python
@@ -122,7 +122,7 @@ Suspicion is derived from **network behavior**, not isolated events.
 
 ---
 
-## 📊 Business & Regulatory Impact
+## Business & Regulatory Impact
 
 ### For Financial Institutions
 - Near real-time mule ring detection  
@@ -138,7 +138,7 @@ Suspicion is derived from **network behavior**, not isolated events.
 
 ---
 
-## 🚀 Roadmap
+## Roadmap
 
 ### Phase 1 – Hackathon MVP
 - Unified transaction graph  
@@ -157,7 +157,19 @@ Suspicion is derived from **network behavior**, not isolated events.
 
 ---
 
-## ⚙️ How to Run
+## Project Status
+
+This repository currently contains the conceptual architecture and proposal for the hackathon.
+
+Implementation of:
+- Graph builder
+- Detection engine
+- Risk scoring logic
+- Dashboard
+
+is planned in the next development phase.
+
+## How to Run
 
 ```bash
 git clone <your-repo-link>
@@ -169,7 +181,7 @@ streamlit run dashboard.py
 
 ---
 
-## 📂 Sample Dataset Format
+## Sample Dataset Format
 
 ```
 transaction_id
@@ -182,7 +194,7 @@ channel
 
 ---
 
-## 👥 Team
+## Team
 
 MindMesh  
 Hackathon: Intellect Hackathon  
@@ -190,6 +202,6 @@ Date: March 2026
 
 ---
 
-## 🌟 Vision
+## Vision
 
 MuleNet transforms fraud monitoring from reactive transaction blocking to proactive, network-intelligent defense — continuously adapting to evolving financial crime patterns.
